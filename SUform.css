@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.sideimg{
+    float: left;
+    margin-right: 25px;
+}
+
+
+.logo{
+    background-color: rgba(20, 20, 20, 0.6);
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    display: inline-flex;
+}
+
+.logo p{
+    color: white;
+    font-size: 4.2rem;
+    align-self: center;
+}
+
+body{
+    background-color: rgba(223, 207, 187, 0.568);
+}
+
+.two{
+    padding: 4rem 2rem ;
+}
+
+.top{
+    font: bold 1.2rem 'Times New Roman', Times, serif;
+    
+}
+
+.form{
+    background-color: white;
+}
+
+.form h2{
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+}
+
+
+form{
+    border: 1px light #e5e7eb;
+    font-size: 10px;
+    padding-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.inputs{ 
+    width: calc(100% / 2 -10px);
+}
+
+.createaccount{
+    border: 1px solid #595d48;
+    border-radius: 5px;
+    background-color: #4c5523;
+    width: 150px;
+    float: left;
+    padding: 5px;
+    text-align: center;
+}
+
+.createaccount a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.login{
+    clear: left;
+    position: relative;
+    top: -470px;
+    left: 590px;
+}
+
+.login a{
+    text-decoration: none;
+    color:  #4c5523;
+    
+}
